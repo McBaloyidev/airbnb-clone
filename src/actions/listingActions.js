@@ -13,6 +13,7 @@ export const listListing = () => async (dispatch) => {
 
     dispatch({ type: LISTING_LIST_SUCCESS, payload: data });
   } catch (error) {
-    dispatch({ type: LISTING_LIST_FAIL, payload: error });
+    const errorMessage = error.response?.data?.message || error.message;
+    dispatch({ type: LISTING_LIST_FAIL, payload: errorMessage });
   }
 };

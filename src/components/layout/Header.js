@@ -7,6 +7,7 @@ import { Avatar } from "@mui/material";
 import { openModal } from "../../actions/modalAction";
 import { logout } from "../../actions/userActions";
 import Login from "../Login";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -24,14 +25,18 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <img
-        src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
-        className="header_logo"
-        alt="logo"
-      />
+      <Link to="/">
+        <img
+          src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
+          className="header_logo"
+          alt="logo"
+        />
+      </Link>
       <div className="header_center">
         <input type="text" />
-        <SearchIcon />
+        <Link to="search">
+          <SearchIcon />
+        </Link>
       </div>
       <div className="header_right">
         <p>Become a host</p>
