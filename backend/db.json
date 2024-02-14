@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mike Ross",
+      "email": "ross@law.com",
+      "phone": "+2764894555"
+    },
+    {
+      "id": "2",
+      "name": "Mpho Baloyi",
+      "email": "mpho@code.com",
+      "phone": "+2784339876"
+    },
+    {
+      "id": "12d0",
+      "email": "olivier@mail.com",
+      "password": "bestPassw0rd",
+      "overwrite": true
+    },
+    {
+      "id": "6bc5",
+      "email": "olivier@mail.com",
+      "password": "bestPassw0rd"
+    },
+    {
+      "id": "6b80",
+      "email": "olivier@mail.com",
+      "password": "bestPassw0rd"
+    }
+  ],
+  "login": [
+    {
+      "id": "c98e",
+      "email": "johnson@gmail.com",
+      "password": "abcdcode"
+    },
+    {
+      "id": "07c5",
+      "email": "johnson@gmail.com",
+      "password": "abcdcode"
+    },
+    {
+      "id": "4216",
+      "email": "valetines@gmail.com",
+      "password": "happyVDay"
+    },
+    {
+      "id": "38f7",
+      "email": "johnson@gmail.com",
+      "password": "dhfgmhtfujn bjhbtf"
+    },
+    {
+      "id": "1fd1",
+      "email": "mc@gmail.code",
+      "password": "code123"
+    },
+    {
+      "id": "6c3b",
+      "email": "hello@user.com",
+      "password": "user123"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2024-02-14",
+      "endDate": "2024-02-20",
+      "userId": "1",
+      "id": "c534"
+    }
+  ],
+  "listings": [
+    {
+      "id": "1",
+      "img": "https://a0.muscache.com/im/pictures/ed54e1b0-f979-447f-898a-aa7b1e8e4bdd.jpg?im_w=720",
+      "title": "Krompan, South Africa",
+      "description": "Mountains and garden views.",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 2457,
+      "address": "Lydian Street",
+      "city": "Pretoria",
+      "street": "Oscar",
+      "price": "1500/night",
+      "sq_ft": 4.2,
+      "email": "test@clone.com",
+      "userId": 2
+    },
+    {
+      "id": "124",
+      "img": "https://a0.muscache.com/im/pictures/a07836b0-0c2c-4e52-8281-9dd34ef504dd.jpg?im_w=720",
+      "title": "Dolphin Coat, South Africa",
+      "description": "Garden and Lake Views",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 2457,
+      "address": "Lydian Street",
+      "city": "Pretoria",
+      "street": "Oscar",
+      "price": "R2450/night",
+      "sq_ft": 4.2,
+      "email": "test@clone.com",
+      "userId": 2
+    }
+  ]
+}
